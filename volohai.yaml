@@ -1,0 +1,5 @@
+- step:
+    name: greet-me
+    image: dockercloud/quickstart-python
+    ports: 4000:4000
+    command: echo hello
